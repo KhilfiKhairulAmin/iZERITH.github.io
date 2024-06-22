@@ -5,11 +5,13 @@
     <title>Birthday Card</title>
     <style>
       img{
-        width: 50%;
+        height: 270px;
       }
-      div{
+      #img_placeholder {
+        display: flex;
         justify-content: center;
-        align-items: center
+        align-items: center;
+        flex-direction: column;
       }
     </style>
     <!-- Google Font-->
@@ -34,8 +36,9 @@
             <div class="candle"></div>
           </div>
         </div>
-        <div class="back">
-           <img src="zarifah.jpg" alt="oke">
+        <div id="img_placeholder" class="back">
+           <img src="zarifah.png" alt="oke">
+           <p>ITS YOUR LAST TEEN!</p>
         </div>
       </div>
       <div class="inside">
