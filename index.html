@@ -24,8 +24,13 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div id="card" class="card">
-      <div class="outside">
+    <div style="display: flex; justify-content: center;">
+      <audio id="music" autoplay unmuted id="music">
+        <source src="happy.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="card">
+      <div id="card" class="outside">
         <div class="front">
           <p>Sanah Helwah</p>
           <p>To </p>
@@ -38,7 +43,7 @@
           </div>
         </div>
         <div id="img_placeholder" class="back">
-           <img src="zarifah.jpg" alt="oke">
+           <img id="img" src="zarifah.jpg" alt="oke">
            <p>ITS YOUR LAST TEEN!</p>
         </div>
       </div>
